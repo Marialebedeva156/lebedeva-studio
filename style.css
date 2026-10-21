@@ -3,3 +3,7 @@
 .product img {object-fit:cover; object-position:center; background:#f3f1ee;}
 .hero img,.feature img {object-fit:cover;object-position:center;}
 .thumb{object-fit:cover;}
+
+/* Нумерация разделов на главной странице */
+.hero-number,.section-number{display:block;font-size:12px;letter-spacing:2px;color:#8b6457;font-weight:600;margin:0 0 16px}
+.hero-number{background:#e9dfd2;padding:9px 13px;border-radius:2px}
