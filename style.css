@@ -7,3 +7,23 @@
 /* Нумерация разделов на главной странице */
 .hero-number,.section-number{display:block;font-size:12px;letter-spacing:2px;color:#8b6457;font-weight:600;margin:0 0 16px}
 .hero-number{background:#e9dfd2;padding:9px 13px;border-radius:2px}
+
+/* Размер фотографий товаров: 600 x 400 пикселей */
+.product img {display:block;width:100%;max-width:600px;height:auto;aspect-ratio:3 / 2;object-fit:cover;}
+.hero img,.feature img {display:block;width:100%;max-width:600px;height:auto;aspect-ratio:3 / 2;min-height:0;object-fit:cover;}
+/* Миниатюры и фотографии паспорта оставляем компактными */
+
+
+/* Фотографии товаров: 600 × 400, без обрезки */
+.product img, .hero img, .feature img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #f6f2eb;
+  min-height: 0;
+}
+/* Картинки в таблицах тоже показываются полностью */
+.thumb, td img { object-fit: contain; }
